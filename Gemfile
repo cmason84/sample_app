@@ -7,6 +7,8 @@ group :development, :test do
   gem 'rspec-rails', '2.13.0'
   gem 'guard-rspec', '0.5.5'
   gem 'spork', '>= 0.8.4'
+  gem 'capybara'
+  gem 'webrat'
 end
 
 # Gems used only for assets and not required
@@ -18,4 +20,3 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
